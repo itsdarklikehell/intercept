@@ -37,7 +37,7 @@ dependencies = [
     "pyserial>=3.5",
     "Werkzeug>=3.1.5",
     "bleak>=0.21.0",
-    "requests>=2.28.0",
+    "requests>=2.34.2",
 ]
 
 [project.urls]
@@ -66,7 +66,7 @@ optionals = [
     "meshcore>=2.3.0",
     "psycopg2-binary>=2.9.9",
     "scapy>=2.4.5",
-    "cryptography>=41.0.0",
+    "cryptography>=50.0.2",
     "psutil>=5.9.0",
     "gunicorn>=21.2.0",
     "gevent>=23.9.0",
