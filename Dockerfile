@@ -5,7 +5,7 @@
 ###############################################################################
 # Stage 1: Builder — compile all tools from source
 ###############################################################################
-FROM python:3.11-slim AS builder
+FROM python:3.13-slim AS builder
 
 WORKDIR /tmp/build
 
@@ -208,7 +208,7 @@ RUN cd /tmp \
 ###############################################################################
 # Stage 2: Runtime — lean image with only runtime dependencies
 ###############################################################################
-FROM python:3.11-slim
+FROM python:3.13-slim
 
 LABEL maintainer="INTERCEPT Project"
 LABEL description="Signal Intelligence Platform for SDR monitoring"
